@@ -21,5 +21,8 @@ let state = null
 
 // object
 console.log(typeof "arijit");
+console.log(typeof undefined); //undefined
+console.log( typeof null);  //object
+
 
 
