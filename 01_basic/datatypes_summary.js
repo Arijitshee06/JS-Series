@@ -47,3 +47,31 @@ let myObj = {
  console.log(typeof myObj);
  console.log(typeof myFunction);
 
+
+
+ ////********************************************************** */
+//Stack (Primative), Heap (Non-Primative) 
+
+/////////////////Stack/////////////////
+//What is Stack => Any Value change from any variable here not change orginal value from memory
+let myOriginalname ="Arijit Shee"
+
+let anothername = myOriginalname
+anothername = "Arii"
+
+console.log(myOriginalname);
+console.log(anothername);
+
+////////////////Heap//////////////////
+// here value change from orginal memory
+let userOne = {
+    email: "arijit@google.com",
+    upi: "a.shee@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "shee@gmail.com"   //when any value called from any function that using 'dot'
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
