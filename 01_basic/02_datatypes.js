@@ -21,8 +21,11 @@ let state = null
 
 // object
 console.log(typeof "arijit");
+console.log(typeof 22) // number
+console.log(typeof false) // boolean
 console.log(typeof undefined); //undefined
 console.log( typeof null);  //object
+console.log(typeof Symbol("id")) // symbol;
 
 
 
